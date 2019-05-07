@@ -33,7 +33,7 @@ header p {
 
 .container {
     max-width: 900px;
-    margin: auto;
+    margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -80,14 +80,15 @@ header p {
 .content-area {
     border-top: 20px;
     border-bottom: 20px;
-    background-color: #C4DBF6; 
 }
 
 .main-area {
     width: 66%;
     float: left;
+    padding-left: 20px;
     padding-right: 30px;
     box-sizing: border-box;
+    background-color: #C4DBF6;
 }
 
 .sidebar {
@@ -99,6 +100,16 @@ header p {
     font-size: 85%;
 }
 /* End Main Content Area */
+
+
+footer {
+	text-align: center;
+	font-size: 85%;
+	color: #FFF;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
 
 /* Clear Fix */
 .fix {
